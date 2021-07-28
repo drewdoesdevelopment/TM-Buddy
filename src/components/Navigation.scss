@@ -1,0 +1,21 @@
+$light-dark-color: #1f1f1f;
+$lighter-dark-color: #1e1e1e;
+$dark-color: #121212;
+
+.navbar--style {
+  background-color: $light-dark-color;
+}
+
+.logo--text {
+  font-family: 'Kanit', sans-serif;
+}
+
+.nav--links {
+  font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+  .nav--links {
+    display: none;
+  }
+}
