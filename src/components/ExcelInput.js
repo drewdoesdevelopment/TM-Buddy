@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { Card } from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
+import { PersonFill } from 'react-bootstrap-icons';
+import './ExcelInput.scss';
 import * as XLSX from 'xlsx';
 
 const ExcelInput = () => {
@@ -41,17 +43,26 @@ const ExcelInput = () => {
 
   return (
     <>
-      <input type='file' onChange={handleExcelInput} />
-
-      {employeeName.map((employee) => {
-        return (
-          <Card>
-            <Card.Body>
-              <Card.Title>{employee.Employee}</Card.Title>
-            </Card.Body>
-          </Card>
-        );
-      })}
+      <input type='file' placeholder='fart' onChange={handleExcelInput} />
+      <Container className='card__container'>
+        {employeeName.map((employee) => {
+          return (
+            <Card className='employee__card'>
+              <Card.Body>
+                <Card.Title>
+                  <PersonFill size={24} className='mb-2' /> {employee.Employee}
+                </Card.Title>
+                <Card.Subtitle className='mb-2 text-muted'>
+                  Employee ID: {employee.EmployeeID}
+                </Card.Subtitle>
+                <Card.Subtitle className='mb-2 text-muted'>
+                  Contact: {employee.PhoneNumber}
+                </Card.Subtitle>
+              </Card.Body>
+            </Card>
+          );
+        })}
+      </Container>
     </>
   );
 };

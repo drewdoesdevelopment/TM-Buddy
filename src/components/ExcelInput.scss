@@ -1,0 +1,14 @@
+.card__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.employee__card {
+  width: 300px;
+}
+
+input {
+  color: white;
+}
