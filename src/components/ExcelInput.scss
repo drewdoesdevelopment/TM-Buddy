@@ -1,14 +1,23 @@
 .card__container {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 .employee__card {
-  width: 300px;
+  width: 340px;
+  padding: 10px 0;
 }
 
 input {
   color: white;
+}
+
+.team__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
