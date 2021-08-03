@@ -6,7 +6,6 @@ import * as XLSX from 'xlsx';
 
 const ExcelInput = () => {
   const [employeeName, setEmployeeName] = useState([]);
-  const [employeeEmail, setEmployeeEmail] = useState([]);
 
   const handleExcelInput = (e) => {
     const readExcel = (file) => {
@@ -41,7 +40,7 @@ const ExcelInput = () => {
   return (
     <div className='team__dashboard'>
       <Container className='team__input'>
-        <input type='file' placeholder='fart' onChange={handleExcelInput} />
+        <input type='file' onChange={handleExcelInput} />
       </Container>
       <Container className='card__container'>
         {employeeName.map((employee) => {
