@@ -10,9 +10,8 @@ const Navigation = (props) => {
           TM Tools - {props.title}
         </Navbar.Brand>
         <Nav className='me-right nav--links'>
-          <Nav.Link href='#home'>Home</Nav.Link>
-          <Nav.Link href='#attendance'>Attendance</Nav.Link>
-          <Nav.Link href='#reports'>Reports</Nav.Link>
+          <Nav.Link href='#dashboard'>Dashboard</Nav.Link>
+          <Nav.Link href='#attendance'>Performance</Nav.Link>
         </Nav>
       </Container>
     </Navbar>

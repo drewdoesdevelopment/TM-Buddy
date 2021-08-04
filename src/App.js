@@ -1,16 +1,17 @@
 import React from 'react';
+import './App.scss';
 import Navigation from './components/Navigation';
 import ExcelInput from './components/ExcelInput';
 import LoginForm from './components/LoginForm';
-
-import './App.scss';
+import Performance from './components/Performance';
 
 function App() {
   return (
     <div>
       <Navigation title='Dashboard' />
-      <LoginForm />
-      <ExcelInput />
+      {/* <LoginForm /> */}
+      {/* <ExcelInput /> */}
+      <Performance />
     </div>
   );
 }
