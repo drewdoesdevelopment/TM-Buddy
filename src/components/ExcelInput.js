@@ -23,7 +23,7 @@ const ExcelInput = () => {
         };
 
         fileReader.onerror = (err) => {
-          reject(err);
+          console.log('there has been an error!');
         };
       });
 

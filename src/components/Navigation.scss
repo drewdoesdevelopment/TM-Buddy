@@ -2,8 +2,13 @@ $light-dark-color: #1f1f1f;
 $lighter-dark-color: #1e1e1e;
 $dark-color: #121212;
 
+a {
+  text-decoration: none;
+}
+
 .navbar--style {
   background-color: $light-dark-color;
+  text-decoration: none;
 }
 
 .logo--text {
