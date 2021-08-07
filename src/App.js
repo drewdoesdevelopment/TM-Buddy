@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <Navigation title='Home' />
+      {/* <Navigation title='Home' /> */}
       <div>
         <Switch>
           <Route path='/' exact component={Home}></Route>

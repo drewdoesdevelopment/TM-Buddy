@@ -6,8 +6,7 @@ function Home() {
     <div className='hero__area'>
       <div className='container hero__content'>
         <h1>
-          TM-Tools does the hard work of extracting data and building automated
-          managerial tasks
+          TM Buddy handles your team's data, and automates your daily tasks
         </h1>
       </div>
     </div>

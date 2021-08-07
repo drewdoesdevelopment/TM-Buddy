@@ -9,7 +9,7 @@ const Navigation = (props) => {
       <Container>
         <Link to='/'>
           <Navbar.Brand className='logo--text' href='#home'>
-            TM Tools - {props.title}
+            TM Buddy - {props.title}
           </Navbar.Brand>
         </Link>
         <Nav className='me-right nav--links'>
