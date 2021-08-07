@@ -1,6 +1,4 @@
-$light-dark-color: #1f1f1f;
-$lighter-dark-color: #1e1e1e;
-$dark-color: #121212;
+$light-dark-color: #1c1b1b;
 
 a {
   text-decoration: none;
@@ -9,6 +7,7 @@ a {
 .navbar--style {
   background-color: $light-dark-color;
   text-decoration: none;
+  padding: 15px;
 }
 
 .logo--text {

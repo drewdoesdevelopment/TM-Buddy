@@ -13,6 +13,9 @@ const Navigation = (props) => {
           </Navbar.Brand>
         </Link>
         <Nav className='me-right nav--links'>
+          <Link to='/'>
+            <Nav.Link href='#home'>Home</Nav.Link>
+          </Link>
           <Link to='/dashboard'>
             <Nav.Link href='#dashboard'>Dashboard</Nav.Link>
           </Link>
