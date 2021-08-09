@@ -1,10 +1,26 @@
 .hero__area {
   text-align: center;
-  color: #f4ebdd;
-  margin-top: 3rem;
+  margin-top: 5rem;
+  font-family: 'Poppins', sans-serif;
 
   h1 {
-    font-family: 'Poppins', sans-serif;
+    color: #e5d7c0;
     font-weight: 600;
   }
+}
+
+.primary-button {
+  border-radius: 20px;
+  background-color: #e5d7c0;
+  color: #3f3d56;
+  padding: 8px 22px;
+  margin-top: 28px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+}
+
+.primary-button:hover {
+  background-color: #c8b597;
+  color: #3a3759;
 }
