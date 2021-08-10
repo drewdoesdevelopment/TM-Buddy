@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import './Home.scss';
+import { ReactComponent as HeroSvg } from '../img/hero-img.svg';
 
 function Home() {
   return (
@@ -10,6 +11,9 @@ function Home() {
           TM Buddy handles your team's data, and automates your daily tasks
         </h1>
         <Button className='primary-button'>Launch Demo</Button>
+      </div>
+      <div className='container hero__img'>
+        <HeroSvg />
       </div>
     </div>
   );
