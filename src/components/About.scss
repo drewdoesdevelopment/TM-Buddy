@@ -1,3 +1,29 @@
 .about__title {
   color: #e5d7c0;
+  font-weight: 600;
+}
+
+.text--secondary {
+  color: #625779;
+}
+
+.about__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+
+  svg {
+    padding: 0px 4px;
+  }
+}
+
+.about__text {
+  color: #f0e4d1;
+  padding-top: 1.6rem;
+  font-weight: 500;
+
+  span {
+    color: #2e769f;
+  }
 }

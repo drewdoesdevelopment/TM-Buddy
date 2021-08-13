@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import { ReactComponent as HeroSvg } from '../img/hero-img.svg';
 import About from './About';
+import Footer from './Footer';
 import './Home.scss';
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
         <HeroSvg className='hero__img' />
       </div>
       <About />
+      <Footer />
     </div>
   );
 }
