@@ -2,7 +2,6 @@ import React from 'react';
 import './App.scss';
 import Navigation from './components/Navigation';
 import ExcelInput from './components/ExcelInput';
-import LoginForm from './components/LoginForm';
 import Performance from './components/Performance';
 import Home from './components/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';

@@ -1,15 +1,19 @@
-.hero__area {
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 4rem;
   font-family: 'Poppins', sans-serif;
-
-  h1 {
-    color: #e5d7c0;
-    font-weight: 600;
-  }
 }
 
-.primary-button {
+.hero__title {
+  color: #e5d7c0;
+  font-weight: 600;
+}
+
+.hero__button {
   border-radius: 20px;
   background-color: #e5d7c0;
   color: #3f3d56;
@@ -20,7 +24,16 @@
   border: none;
 }
 
-.primary-button:hover {
+.hero__button:hover {
   background-color: #c8b597;
   color: #3a3759;
+}
+
+.hero__image {
+  margin-top: 1rem;
+}
+
+.hero__img {
+  max-width: 300px;
+  max-height: 300px;
 }
