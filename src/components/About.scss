@@ -1,3 +1,7 @@
+$breakpoint-tablet: 768px;
+$breakpoint-laptop: 1366px;
+$breakpoint-desktop: 1920px;
+
 .about__title {
   color: #e5d7c0;
   font-weight: 600;
@@ -25,5 +29,11 @@
 
   span {
     color: #2e769f;
+  }
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .about {
+    margin-top: 4rem;
   }
 }

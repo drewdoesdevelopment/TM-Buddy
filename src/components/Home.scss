@@ -1,3 +1,7 @@
+$breakpoint-tablet: 768px;
+$breakpoint-laptop: 1366px;
+$breakpoint-desktop: 1920px;
+
 .hero {
   display: flex;
   justify-content: center;
@@ -38,4 +42,18 @@
 .hero__img {
   max-width: 350px;
   max-height: 350px;
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .hero {
+    margin-top: 6rem;
+  }
+
+  .hero__image {
+    margin-top: 4rem;
+  }
+
+  .hero__img {
+    max-width: 560px;
+  }
 }
