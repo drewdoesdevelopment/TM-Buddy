@@ -3,6 +3,7 @@ import { Card, Container, Dropdown } from 'react-bootstrap';
 import { PersonFill } from 'react-bootstrap-icons';
 import './ExcelInput.scss';
 import * as XLSX from 'xlsx';
+import Navigation from './Navigation.js';
 
 const ExcelInput = () => {
   const [employeeName, setEmployeeName] = useState([]);
@@ -39,6 +40,7 @@ const ExcelInput = () => {
 
   return (
     <div className='team__dashboard'>
+      <Navigation />
       <Container className='team__input'>
         <input type='file' onChange={handleExcelInput} />
       </Container>

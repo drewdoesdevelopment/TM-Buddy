@@ -9,6 +9,7 @@ import {
   ArrowDownLeftCircle,
 } from 'react-bootstrap-icons';
 import * as XLSX from 'xlsx';
+import Navigation from './Navigation';
 
 function Performance() {
   const [employeeName, setEmployeeName] = useState([]);
@@ -51,11 +52,12 @@ function Performance() {
   };
 
   return (
-    <div className='performance__input'>
-      <Container style={{ textAlign: 'center' }}>
+    <div>
+      <Navigation />
+      <Container className='performance__input' style={{ textAlign: 'center' }}>
         <input type='file' onChange={handleExcelInput} />
       </Container>
-      <Container style={tableStyle}>
+      <Container className='performance__input' style={tableStyle}>
         <h2
           style={{ color: 'white', textAlign: 'center', margin: '2rem 0rem' }}
         >

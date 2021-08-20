@@ -9,9 +9,15 @@ function Footer() {
         <span>Drew Develops</span> | 2021
       </p>
       <div className='footer__social'>
-        <Github size={32} />
-        <Facebook size={32} />
-        <Linkedin size={32} />
+        <a href={'https://github.com/drewdoesdevelopment'} target='_blank'>
+          <Github size={32} />
+        </a>
+        <a href={'https://www.facebook.com/drewdevelops/'} target='_blank'>
+          <Facebook size={32} />
+        </a>
+        <a href={'https://www.linkedin.com/in/drewpfeiler/'} target='_blank'>
+          <Linkedin size={32} />
+        </a>
       </div>
     </div>
   );
