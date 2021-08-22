@@ -1,9 +1,9 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import { ReactComponent as HeroSvg } from '../img/hero-img.svg';
+import { ReactComponent as HeroSvg } from '../../img/hero-img.svg';
 import { Link } from 'react-router-dom';
-import About from './About';
-import Footer from './Footer';
+import About from '../About/About';
+import Footer from '../Footer/Footer';
 import './Home.scss';
 
 function Home() {

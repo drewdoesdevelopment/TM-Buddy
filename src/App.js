@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.scss';
-import Navigation from './components/Navigation';
-import ExcelInput from './components/ExcelInput';
-import Performance from './components/Performance';
-import Home from './components/Home';
+import ExcelInput from './components/ExcelInput/ExcelInput';
+import Performance from './components/Performance/Performance';
+import Home from './components/Home/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
-      {/* <Navigation title='Home' /> */}
       <div>
         <Switch>
           <Route path='/' exact component={Home}></Route>

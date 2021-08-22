@@ -9,7 +9,7 @@ import {
   ArrowDownLeftCircle,
 } from 'react-bootstrap-icons';
 import * as XLSX from 'xlsx';
-import Navigation from './Navigation';
+import Navigation from '../Navigation/Navigation';
 
 function Performance() {
   const [employeeName, setEmployeeName] = useState([]);

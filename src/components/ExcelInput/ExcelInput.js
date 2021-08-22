@@ -3,7 +3,7 @@ import { Card, Container, Dropdown } from 'react-bootstrap';
 import { PersonFill } from 'react-bootstrap-icons';
 import './ExcelInput.scss';
 import * as XLSX from 'xlsx';
-import Navigation from './Navigation.js';
+import Navigation from '../Navigation/Navigation.js';
 
 const ExcelInput = () => {
   const [employeeName, setEmployeeName] = useState([]);
@@ -77,16 +77,11 @@ const ExcelInput = () => {
                           }, it looks like you've called out for your shift today. I hope all is well, when can we be expecting you back?`
                         )
                       }
-                      href='#/action-1'
                     >
                       Mark Absent
                     </Dropdown.Item>
-                    <Dropdown.Item href='#/action-2'>
-                      Send RTW Notice
-                    </Dropdown.Item>
-                    <Dropdown.Item href='#/action-3'>
-                      Generate Travel Request
-                    </Dropdown.Item>
+                    <Dropdown.Item>Send RTW Notice</Dropdown.Item>
+                    <Dropdown.Item>Generate Travel Request</Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
               </Card.Body>
