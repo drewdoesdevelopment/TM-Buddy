@@ -40,7 +40,7 @@ const ExcelInput = () => {
 
   return (
     <div className='team__dashboard'>
-      <Navigation />
+      <Navigation title='Team Dashboard' />
       <Container className='team__input'>
         <input type='file' onChange={handleExcelInput} />
       </Container>
