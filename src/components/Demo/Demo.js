@@ -5,7 +5,7 @@ import './Demo.scss';
 
 function Demo() {
   return (
-    <div className='container demo'>
+    <div className='container-md demo'>
       <h1 className='demo__title'>
         TM Buddy begins the workflow by accepting a raw Excel file of your
         Team’s data

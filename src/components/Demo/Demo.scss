@@ -25,13 +25,14 @@ h3 {
 }
 
 .demo__img {
-  margin-top: 1rem;
+  margin: 3rem 0rem;
   max-width: 600px;
+  box-shadow: 2px 5px 90px 10px rgba(255, 255, 255, 0.12);
 }
 
 .demo__gif--team {
   margin-top: 1rem;
-  max-width: 600px;
+  max-width: 1200px;
   box-shadow: 2px 5px 90px 10px rgba(255, 255, 255, 0.12);
   border-radius: 5px;
 }
