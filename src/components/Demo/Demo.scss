@@ -7,8 +7,9 @@ h1 {
 h3 {
   color: #e5d7c0;
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  margin-top: 0.5rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
 }
 
 .demo {
@@ -25,4 +26,12 @@ h3 {
 
 .demo__img {
   margin-top: 1rem;
+  max-width: 600px;
+}
+
+.demo__gif--team {
+  margin-top: 1rem;
+  max-width: 600px;
+  box-shadow: 2px 5px 90px 10px rgba(255, 255, 255, 0.12);
+  border-radius: 5px;
 }
