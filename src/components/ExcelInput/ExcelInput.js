@@ -81,7 +81,7 @@ const ExcelInput = () => {
                       Mark Absent
                     </Dropdown.Item>
                     <Dropdown.Item>Send RTW Notice</Dropdown.Item>
-                    <Dropdown.Item>Generate Travel Request</Dropdown.Item>
+                    <Dropdown.Item>Send Performance Email</Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
               </Card.Body>
