@@ -13,7 +13,7 @@ function Home() {
         <h1 className='hero__title'>
           TM Buddy handles your team's data, and automates your daily tasks
         </h1>
-        <Link to='/dashboard'>
+        <Link to='/demo'>
           <Button className='hero__button'>Launch Demo</Button>
         </Link>
       </div>
