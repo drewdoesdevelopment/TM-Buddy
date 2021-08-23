@@ -1,4 +1,5 @@
-h1 {
+h1,
+h2 {
   color: #e5d7c0;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -8,7 +9,7 @@ h3 {
   color: #e5d7c0;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-top: 1.5rem;
 }
 
@@ -20,19 +21,35 @@ h3 {
 }
 
 .demo__title {
-  margin-top: 4rem;
+  margin-top: 4.5rem;
   font-weight: 500;
 }
 
 .demo__img {
   margin: 3rem 0rem;
-  max-width: 600px;
-  box-shadow: 2px 5px 90px 10px rgba(255, 255, 255, 0.12);
+  max-width: 300px;
+  box-shadow: 3px 10px 90px 40px rgba(255, 255, 255, 0.12);
+  border-radius: 15px;
 }
 
-.demo__gif--team {
+.demo__gif {
   margin-top: 1rem;
-  max-width: 1200px;
-  box-shadow: 2px 5px 90px 10px rgba(255, 255, 255, 0.12);
-  border-radius: 5px;
+  max-width: 600px;
+  box-shadow: 3px 10px 90px 30px rgba(255, 255, 255, 0.12);
+  border-radius: 15px;
+}
+
+.gif__container {
+  margin: 4rem 0rem;
+}
+
+.facts {
+  margin-top: 1rem;
+}
+
+.fact__container {
+  margin: 4rem 0rem;
+  svg {
+    margin-top: 1.2rem;
+  }
 }
