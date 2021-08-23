@@ -53,7 +53,7 @@ function Performance() {
 
   return (
     <div>
-      <Navigation />
+      <Navigation title='Performance' />
       <Container className='performance__input' style={{ textAlign: 'center' }}>
         <input type='file' onChange={handleExcelInput} />
       </Container>

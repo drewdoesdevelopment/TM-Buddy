@@ -74,7 +74,7 @@ const ExcelInput = () => {
                             employee.Employee
                           }&body=Hello ${
                             employee.Employee.split(' ')[0]
-                          }, it looks like you've called out for your shift today. I hope all is well, when can we be expecting you back?`
+                          }, it looks like you've called in for your shift today, I hope all is well! Please let me know which date I can set for your return.`
                         )
                       }
                     >

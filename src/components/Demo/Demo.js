@@ -1,6 +1,9 @@
 import React from 'react';
 import excelDemo from '../../img/excelDemo.png';
 import teamDashboard from '../../img/teamDashboard.gif';
+import teamAutomate from '../../img/demoAutomate.gif';
+import performanceDemo from '../../img/performanceDemo.gif';
+
 import './Demo.scss';
 
 function Demo() {
@@ -19,6 +22,12 @@ function Demo() {
       <h3 className='mt-5'>
         Enabling you to run one-click automated tasks within the app
       </h3>
+      <img src={teamAutomate} className='container demo__gif--team'></img>
+      <h3 className='mt-5'>
+        TM Buddy makes it easy to visualize your team's performance in a format
+        ready to be shared
+      </h3>
+      <img src={performanceDemo} className='container demo__gif--team'></img>
     </div>
   );
 }
