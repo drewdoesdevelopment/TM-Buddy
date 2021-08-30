@@ -38,26 +38,26 @@ function Demo() {
       <div className='facts'>
         <div className='fact__container'>
           <h2>Why Choose TM Buddy?</h2>
-          <h3 className='mt-4'>
+          <p className='mt-4'>
             TM Buddy is built specifically around your enterprise needs, meaning
             customized automation not replicated by other software
-          </h3>
+          </p>
           <Tools size={70} style={{ color: '#584E6C' }} />
         </div>
         <div className='fact__container'>
           <h2>It's Really Fast</h2>
-          <h3 className='mt-4'>
+          <p className='mt-3'>
             TM Buddy is built and powered by JavaScript and React, making it an
             incredibly fast and seamless experience
-          </h3>
+          </p>
           <Speedometer2 size={80} style={{ color: '#fa9d41' }} />
         </div>
         <div className='fact__container'>
           <h2>Available as Mobile App</h2>
-          <h3 className='mt-4'>
+          <p className='mt-3'>
             Extend your enterprise toolkit to mobile devices as TM Buddy is
             capable of being available on the Apple and Android App Store
-          </h3>
+          </p>
           <Phone size={80} style={{ color: '#5fede6' }} />
         </div>
         <div className='cta'>

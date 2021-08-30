@@ -1,5 +1,5 @@
 $breakpoint-tablet: 768px;
-$breakpoint-laptop: 1366px;
+$breakpoint-laptop: 1280px;
 $breakpoint-desktop: 1920px;
 
 .hero {
@@ -15,6 +15,7 @@ $breakpoint-desktop: 1920px;
 .hero__title {
   color: #e5d7c0;
   font-weight: 600;
+  text-align: center;
 }
 
 .hero__button {
@@ -72,5 +73,27 @@ $breakpoint-desktop: 1920px;
 
   .hero__img {
     max-width: 560px;
+  }
+}
+
+@media (min-width: $breakpoint-laptop) {
+  .hero {
+    margin-top: 5rem;
+  }
+
+  .hero__img {
+    max-width: 550px;
+    max-height: 550px;
+  }
+
+  .hero__button {
+    font-size: 1.3rem;
+    padding: 10px 26px;
+    border-radius: 30px;
+  }
+
+  .hero__title {
+    font-size: 2.8rem;
+    font-weight: 500;
   }
 }
