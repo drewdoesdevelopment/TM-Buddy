@@ -1,3 +1,7 @@
+$breakpoint-tablet: 768px;
+$breakpoint-laptop: 1280px;
+$breakpoint-desktop: 1920px;
+
 .footer {
   color: #f0e4d1;
   font-weight: 400;
@@ -24,5 +28,11 @@ a {
 
   &:visited {
     color: #f0e4d1;
+  }
+}
+
+@media (min-width: $breakpoint-laptop) {
+  .footer {
+    margin: 1.2rem 0rem;
   }
 }

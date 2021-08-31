@@ -78,12 +78,16 @@ $breakpoint-desktop: 1920px;
 
 @media (min-width: $breakpoint-laptop) {
   .hero {
-    margin-top: 5rem;
+    margin-top: 6rem;
   }
 
   .hero__img {
-    max-width: 550px;
-    max-height: 550px;
+    max-width: 600px;
+    max-height: 600px;
+  }
+
+  .hero__image {
+    margin-top: 2.5rem;
   }
 
   .hero__button {
