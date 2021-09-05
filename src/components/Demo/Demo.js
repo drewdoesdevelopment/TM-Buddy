@@ -16,24 +16,40 @@ function Demo() {
         TM Buddy begins the workflow by accepting a raw Excel file of your
         Team’s data
       </h1>
-      <img src={excelDemo} className='container demo__img'></img>
+      <img
+        src={excelDemo}
+        className='container demo__img'
+        alt='example excel file'
+      ></img>
       <h3>
         TM Buddy then handles the extraction, organization, and rendering of
         your Team’s data
       </h3>
-      <img src={teamDashboard} className='container demo__gif'></img>
+      <img
+        src={teamDashboard}
+        className='container demo__gif'
+        alt='rendered team dashboard'
+      ></img>
       <div className='gif__container'>
         <h3 className='mt-5'>
           Enabling you to run one-click automated tasks within the app
         </h3>
-        <img src={teamAutomate} className='container demo__gif'></img>
+        <img
+          src={teamAutomate}
+          className='container demo__gif'
+          alt='one-click automation'
+        ></img>
       </div>
       <div className='gif__container'>
         <h3 className='mt-5'>
           Making it easy to visualize your team's performance in a format ready
           to be shared
         </h3>
-        <img src={performanceDemo} className='container demo__gif'></img>
+        <img
+          src={performanceDemo}
+          className='container demo__gif'
+          alt='rendering performance table'
+        ></img>
       </div>
       <div className='facts'>
         <div className='fact__container'>
@@ -56,12 +72,12 @@ function Demo() {
           <h2>Available as Mobile App</h2>
           <p className='mt-3'>
             Extend your enterprise toolkit to mobile devices as TM Buddy is
-            capable of being available on the Apple and Android App Store
+            capable of upload to the App Store or Android App Store
           </p>
           <Phone size={80} style={{ color: '#5fede6' }} />
         </div>
         <div className='cta'>
-          <h3>Ready to supercharge your workflow?</h3>
+          <h2 className='cta__title'>Ready to supercharge your workflow?</h2>
           <Button className='hero__button'>Request Consultation</Button>
         </div>
       </div>

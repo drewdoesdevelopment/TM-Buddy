@@ -31,8 +31,27 @@ a {
   }
 }
 
+a:hover {
+  color: #c8b597;
+}
+
 @media (min-width: $breakpoint-laptop) {
   .footer {
     margin: 1.2rem 0rem;
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .footer {
+    margin: 3rem 0rem;
+    font-size: 1.3rem;
+  }
+
+  .footer__social {
+    svg {
+      height: 35px;
+      width: 35px;
+      margin: 0rem 0.1rem;
+    }
   }
 }

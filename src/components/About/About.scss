@@ -57,3 +57,35 @@ $breakpoint-desktop: 1920px;
     padding-top: 10px;
   }
 }
+
+@media (min-width: $breakpoint-desktop) {
+  .about {
+    margin-top: 7rem;
+  }
+
+  .about__title {
+    font-size: 2.4rem;
+  }
+
+  .about__text {
+    font-size: 1.6rem;
+    padding-top: 30px;
+  }
+
+  .about__icons {
+    padding-top: 1.5rem;
+
+    svg {
+      width: 70px;
+    }
+
+    svg.about__icons--small {
+      height: 35px;
+    }
+
+    svg.about__icons--medium {
+      height: 70px;
+      width: 80px;
+    }
+  }
+}

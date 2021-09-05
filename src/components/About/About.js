@@ -17,11 +17,31 @@ function About() {
       </h2>
       <ArrowBarDown size={40} style={{ color: '#584E6C' }} />
       <div className='about__icons'>
-        <FileEarmarkExcelFill size={60} style={{ color: '#444A37' }} />
-        <BoxArrowInRight size={30} style={{ color: '#E5C0DD' }} />
-        <Server size={60} style={{ color: '#535477' }} />
-        <Shuffle size={30} style={{ color: '#E5C0DD' }} />
-        <ClipboardData size={60} style={{ color: '#A8BB90' }} />
+        <FileEarmarkExcelFill
+          size={60}
+          style={{ color: '#444A37' }}
+          className='about__icons--medium'
+        />
+        <BoxArrowInRight
+          size={30}
+          style={{ color: '#E5C0DD' }}
+          className='about__icons--small'
+        />
+        <Server
+          size={60}
+          style={{ color: '#535477' }}
+          className='about__icons--medium'
+        />
+        <Shuffle
+          size={30}
+          style={{ color: '#E5C0DD' }}
+          className='about__icons--small'
+        />
+        <ClipboardData
+          size={60}
+          style={{ color: '#A8BB90' }}
+          className='about__icons--medium'
+        />
       </div>
       <div className='container'>
         <p className='about__text'>

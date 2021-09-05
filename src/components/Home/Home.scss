@@ -101,3 +101,23 @@ $breakpoint-desktop: 1920px;
     font-weight: 500;
   }
 }
+
+@media (min-width: $breakpoint-desktop) {
+  .hero__title {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+  }
+
+  .hero__button {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .hero__img {
+    max-width: 680px;
+    max-height: 600px;
+  }
+
+  .hero__image {
+    margin-top: 6rem;
+  }
+}
