@@ -6,7 +6,7 @@ import performanceDemo from '../../img/performanceDemo.gif';
 import Footer from '../Footer/Footer';
 import { Button } from 'react-bootstrap';
 
-import { Tools, Speedometer2, Phone } from 'react-bootstrap-icons';
+import { Tools, Speedometer, Phone } from 'react-bootstrap-icons';
 import './Demo.scss';
 
 function Demo() {
@@ -66,7 +66,7 @@ function Demo() {
             TM Buddy is built and powered by JavaScript and React, making it an
             incredibly fast and seamless experience
           </p>
-          <Speedometer2 size={80} style={{ color: '#fa9d41' }} />
+          <Speedometer size={80} style={{ color: '#fa9d41' }} />
         </div>
         <div className='fact__container'>
           <h2>Available as Mobile App</h2>
@@ -78,7 +78,9 @@ function Demo() {
         </div>
         <div className='cta'>
           <h2 className='cta__title'>Ready to supercharge your workflow?</h2>
-          <Button className='hero__button'>Request Consultation</Button>
+          <Button className='hero__button hero__button--demo'>
+            Request Consultation
+          </Button>
         </div>
       </div>
       <Footer />

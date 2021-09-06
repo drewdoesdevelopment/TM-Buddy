@@ -37,14 +37,17 @@ a:hover {
 
 @media (min-width: $breakpoint-laptop) {
   .footer {
-    margin: 1.2rem 0rem;
+    margin-top: 3.2rem;
+    p {
+      font-size: 1.2rem;
+    }
   }
 }
 
 @media (min-width: $breakpoint-desktop) {
   .footer {
     margin: 3rem 0rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .footer__social {

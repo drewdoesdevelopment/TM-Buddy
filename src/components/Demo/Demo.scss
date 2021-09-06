@@ -66,13 +66,11 @@ p {
   .cta__title {
     font-size: 1.6rem;
     font-weight: 600;
-    padding-top: 1.2rem;
   }
 
-  .hero__button {
-    font-weight: 600;
-    margin-bottom: 4rem;
-    font-size: 1.2rem;
+  .hero__button--demo {
+    font-size: 1rem;
+    padding: 10px 20px;
   }
 
   .demo__title {
@@ -90,7 +88,7 @@ p {
   }
 
   p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 300;
   }
 
@@ -99,6 +97,13 @@ p {
     svg {
       width: 80px;
       height: 80px;
+    }
+  }
+
+  .footer--demo {
+    margin: 2rem;
+    p {
+      font-size: 1.2rem;
     }
   }
 }
