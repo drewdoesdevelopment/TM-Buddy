@@ -21,15 +21,17 @@ function Demo() {
         className='container demo__img'
         alt='example excel file'
       ></img>
-      <h3>
-        TM Buddy then handles the extraction, organization, and rendering of
-        your Team’s data
-      </h3>
-      <img
-        src={teamDashboard}
-        className='container demo__gif'
-        alt='rendered team dashboard'
-      ></img>
+      <div className='gif__container'>
+        <h3>
+          TM Buddy then handles the extraction, organization, and rendering of
+          your Team’s data
+        </h3>
+        <img
+          src={teamDashboard}
+          className='container demo__gif'
+          alt='rendered team dashboard'
+        ></img>
+      </div>
       <div className='gif__container'>
         <h3 className='mt-5'>
           Enabling you to run one-click automated tasks within the app
@@ -61,7 +63,7 @@ function Demo() {
           <Tools size={70} style={{ color: '#584E6C' }} />
         </div>
         <div className='fact__container'>
-          <h2>It's Really Fast</h2>
+          <h2>Built for Performance</h2>
           <p className='mt-3'>
             TM Buddy is built and powered by JavaScript and React, making it an
             incredibly fast and seamless experience
@@ -71,8 +73,8 @@ function Demo() {
         <div className='fact__container'>
           <h2>Available as Mobile App</h2>
           <p className='mt-3'>
-            Extend your enterprise toolkit to mobile devices as TM Buddy is
-            capable of upload to the App Store or Android App Store
+            Extend your enterprise toolkit to mobile devices as TM Buddy is able
+            to be ported directly to the Apple App Store & Google Play Store
           </p>
           <Phone size={80} style={{ color: '#5fede6' }} />
         </div>

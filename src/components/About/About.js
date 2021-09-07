@@ -46,7 +46,7 @@ function About() {
       <div className='container'>
         <p className='about__text'>
           TM Buddy <span>supercharges</span> your daily workflow by accepting an
-          Excel file of raw data, and converting it to a JSON Object to be used
+          Excel file of raw data, and converting it to JSON format to be used
           within the app to automate repetitive tasks
         </p>
       </div>
