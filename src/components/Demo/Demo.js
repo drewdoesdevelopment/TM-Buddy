@@ -80,7 +80,11 @@ function Demo() {
         </div>
         <div className='cta'>
           <h2 className='cta__title'>Ready to supercharge your workflow?</h2>
-          <Button className='hero__button hero__button--demo'>
+          <Button
+            href='https://www.drewdevelops.com/connect.html'
+            target='_blank'
+            className='hero__button hero__button--demo'
+          >
             Request Consultation
           </Button>
         </div>
