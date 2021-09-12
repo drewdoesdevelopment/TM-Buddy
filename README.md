@@ -1,7 +1,13 @@
-# TM Buddy - WIP 2021
+# TM Buddy - https://tmbuddy.net
 
-Work in progress web application built with React by Drew in July of 2021.
+:bulb: TM Buddy is a manager tool built for a high volume enterprise environment. 
 
-# Purpose of this App
+:stars: Powered by React, React-Router, Bootstrap-React and styled with custom SCSS.
 
-This application accepts an unfiltered, raw Excel file with employee data and enterprise performance metrics that can then be imported directly to the app. The app will then allow for one-click automated tasks which are meant to save a Team Manager time performing administrative duties.
+:art: TM Buddy's design and styling was done myself via Figma.
+
+# How it works
+
+:crystal_ball: This app accepts an excel file of unsorted data and coverts it to JSON format to be organized and displayed in the app's interface. TM Buddy then allows for a team manager to interaction with the 'Team Dashboard' which runs automated tasks based off the excel JSON data.
+
+:clipboard: Data will be persisted through the app using Redux and with backend integration via MongoDB. 
