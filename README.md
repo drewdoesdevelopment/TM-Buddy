@@ -2,7 +2,7 @@
 
 :bulb: TM Buddy is a manager tool built for a high volume enterprise environment. 
 
-:stars: Powered by React, React-Router, Bootstrap-React and styled with custom SCSS.
+:stars: Powered by React, React Router, React-Bootstrap and styled with custom SCSS.
 
 :art: TM Buddy's design and styling was done myself via Figma.
 
